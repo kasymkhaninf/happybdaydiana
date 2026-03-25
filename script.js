@@ -218,7 +218,7 @@ const items = [
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/42.jpeg",
+    image: "images/42.jpg",
     text: "Желаю, чтобы коврик для йоги всегда разворачивался сам - и я щас не только про йогу (Айя)",
     audio: "audio/audio1.mp3"
   },
