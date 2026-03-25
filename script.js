@@ -58,17 +58,17 @@ const items = [
   },
 
   {
-    image: "images/10.png",
+    image: "images/10.jpg",
     text: "Пусть он смотрит на тебя так, будто ты последний чак-чак на столе (Асема)",
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/11.png",
+    image: "images/11.jpg",
     text: "Пусть теперь твой каждый день как день рождения.. (Дания)",
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/12.png",
+    image: "images/12.jpg",
     text: "Сияй как звезда (Дания)",
     audio: "audio/audio1.mp3"
   },
@@ -77,7 +77,7 @@ const items = [
     text: "30 — это не возраст, а уровень! Пусть жизнь будет роскошной как первый класс. Нет, как private jet! (Дания)",
     audio: "audio/audio1.mp3"
   },{
-    image: "images/14.png",
+    image: "images/14.jpg",
     text: "30 — это когда красота, ум и опыт собрались в идеальной пропорции. Наслаждайся и покоряй вершины! (Дания)",
     audio: "audio/audio1.mp3"
   },
@@ -97,17 +97,17 @@ const items = [
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/18.png",
+    image: "images/18.jpg",
     text: "Любви, восхищения, обожания, гармонии и счастья! (Дания)",
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/19.png",
+    image: "images/19.jpg",
     text: "Пусть твоя жизнь будет как Wi-Fi — всегда подключена к счастью и без пароля (Дания)",
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/20.png",
+    image: "images/20.jpg",
     text: "Желаю, чтобы твои ночи были горячее, чем лето в Дубае (Дания)",
     audio: "audio/audio1.mp3"
   },
@@ -117,7 +117,7 @@ const items = [
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/22.png",
+    image: "images/22.jpg",
     text: "Летай не только по работе, но и по жизни! ✈️ (Нури)",
     audio: "audio/audio1.mp3"
   },
@@ -132,12 +132,12 @@ const items = [
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/25.png",
+    image: "images/25.jpg",
     text: "Оставайся собой, такой же яркой звездой! (Нури)",
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/26.png",
+    image: "images/26.jpg",
     text: "Будь нежной как цветок 🌸 и в то же время такой сильной! 💪 (Нури)",
     audio: "audio/audio1.mp3"
   },
@@ -162,7 +162,7 @@ const items = [
     audio: "audio/audio1.mp3"
   },
   {
-    image: "images/31.PNG",
+    image: "images/31.jpg",
     text: "Пусть тебе будут подвластны и пространство и время (Алуа)",
     audio: "audio/audio1.mp3"
   },
