@@ -1,24 +1,38 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<div id="header">
-			<h3>THIS IS THE HEAD OF THE WEBSITE</h3>
-		</div>
-		<div id="main">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		</div>
-		<div id="left">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-		</div>
-		<div id="right">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-		</div>
-		<div id="footer">
-			<h3>THIS IS THE FOOTER OF THE WEBSITE</h3>
-		</div>
-	</body>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy B'day, Diana!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neucha:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="screen">
+    <button id="heartButton" class="heart-button">
+  <span class="ransom-text" aria-label="press me">
+    <span class="letter l1">p</span>
+    <span class="letter l2">r</span>
+    <span class="letter l3">e</span>
+    <span class="letter l4">s</span>
+    <span class="letter l5">s</span>
+    <span class="space"></span>
+    <span class="letter l6">m</span>
+    <span class="letter l7">e</span>
+  </span>
+</button>
 
+    <div id="card" class="card hidden">
+      <div class="image-wrapper">
+      <img id="cardImage" src="" alt="Фото" />
+      <p id="cardText"></p>
+    </div>
+  </div>
+
+  <audio id="audioPlayer"></audio>
+
+  <script src="script.js"></script>
+</body>
 </html>
