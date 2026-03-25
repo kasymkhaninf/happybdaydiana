@@ -157,23 +157,20 @@ body {
 .card {
   position: absolute;
   left: 50%;
-  bottom: -500px;
-  transform: translateX(-50%);
-  
-  width: auto;
-  max-width: 90vw;
-  max-height: 85vh;
+  bottom: 50%;
+  transform: translate(-50%, 120vh);
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: transform 0.7s ease, opacity 0.7s ease;
+}
 
-  padding: 0;
-  background: transparent;
-  box-shadow: none;
-  text-align: center;
+.card.show {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
 
-  transition:
-    bottom 0.8s ease,
-    opacity 0.8s ease,
-    transform 0.8s ease;
-
+.card.hide-down {
+  transform: translate(-50%, 120vh);
   opacity: 0;
 }
 
