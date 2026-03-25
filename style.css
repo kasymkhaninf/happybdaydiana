@@ -16,7 +16,7 @@ body {
   height: 100vh;
 }
 
-/* КНОПКА */
+/* кнопка */
 .heart-button {
   position: absolute;
   left: 50%;
@@ -37,7 +37,7 @@ body {
   transform: translate(-50%, calc(-50% + 20px));
 }
 
-/* ТЕКСТ PRESS ME */
+/* текст пресс ми */
 .ransom-text {
   display: flex;
   align-items: flex-end;
@@ -54,7 +54,7 @@ body {
   gap: 4px;
 }
 
-/* БУКВЫ */
+/* буковки */
 .letter {
   display: inline-flex;
   align-items: center;
@@ -75,7 +75,7 @@ body {
   width: 10px;
 }
 
-/* стили букв (эффект вырезок) */
+/* стили буковок */
 .l1 {
   font-family: Georgia, serif;
   font-size: 64px;
@@ -155,7 +155,7 @@ body {
   60% { transform: scale(0.98); }
 }
 
-/* КАРТОЧКА */
+/* карточки */
 .card {
   position: absolute;
   left: 50%;
@@ -194,15 +194,15 @@ body {
 
   /* белая рамка */
   background: white;
-  padding: 14px 18px 20px 12px; /* асимметрия 👈 */
+  padding: 14px 18px 20px 12px; /* асимметрия */
 
-  /* лёгкая "кривизна" */
+  /* кривизна */
   transform: rotate(-1.5deg);
 
   margin: 0 auto 10px;
 }
 
-/* ТЕКСТ */
+/* текст */
 .card p {
   position: absolute;
   left: 50%;
@@ -210,7 +210,7 @@ body {
   transform: translateX(-50%);
 
   margin: 0;
-  padding: 4px 8px; /* делаем рамку узкой */
+  padding: 4px 8px; /* сужатель рамки */
 
   font-family: "Neucha";
   font-weight: 700;
@@ -228,14 +228,14 @@ body {
   overflow-wrap: break-word;
 }
 
-/* ПОЯВЛЕНИЕ */
+/* появление */
 .card.show {
   bottom: 55%;
   transform: translate(-50%, 50%);
   opacity: 1;
 }
 
-/* ИСЧЕЗНОВЕНИЕ */
+/* исчезговение */
 .card.hide-down {
   bottom: -500px;
   transform: translate(-50%, 0);
