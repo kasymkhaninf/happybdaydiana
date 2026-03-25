@@ -302,7 +302,7 @@ function showRandomCard() {
   cardText.textContent = item.text;
 
   if (!audioPlayer.src) {
-  audioPlayer.src = "weareyoung.mp4"; // твой один трек
+  audioPlayer.src = "weareyoung.mp4"; 
   audioPlayer.play().catch(() => {});
 }
 }
