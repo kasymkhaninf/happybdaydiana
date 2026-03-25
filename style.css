@@ -210,24 +210,17 @@ body {
   margin: 0;
   padding: 4px 8px; /* делаем рамку узкой */
 
-  font-size: 22px;
   font-family: "Neucha";
   font-weight: 700;
   color: black;
-
   background: #fff200;
-  border-radius: 3px;
-
+  border-radius: 6px;
   text-align: center;
+  line-height: 1.2;
 
-  box-shadow: 
-    2px 0 0 #fff200,
-    -2px 0 0 #fff200;           /* убираем ограничение ширины */
+  font-size: clamp(14px, 2.5vw, 22px);
 
-
-  display: inline-block;
-  width: min(80vw, 900px);
-  min-width: min-content;
+  width: min(85vw, 500px);
 
   white-space: normal;
   overflow-wrap: break-word;
