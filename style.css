@@ -42,7 +42,9 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
+
+  transform: scale(clamp(0.5, 1.2vw, 1));
   transition: transform 0.6s ease;
 }
 
