@@ -259,6 +259,11 @@ const items = [
   },
 ];
 
+items.forEach(item => {
+  const img = new Image();
+  img.src = item.image;
+});
+
 const backgrounds = [
   "linear-gradient(135deg, #ffd6e7, #ffeccf)",
   "linear-gradient(135deg, #c9f9ff, #d9d4ff)",
